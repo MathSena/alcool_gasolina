@@ -11,6 +11,10 @@ class _HomeState extends State<Home> {
   final TextEditingController _controllerAlcool = TextEditingController();
   final TextEditingController _controllerGasolina = TextEditingController();
 
+  void _calcular(){
+
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
